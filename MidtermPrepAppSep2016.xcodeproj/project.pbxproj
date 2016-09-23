@@ -14,6 +14,9 @@
 		120DEAD41D94B16B002D7904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120DEAD31D94B16B002D7904 /* Assets.xcassets */; };
 		120DEAD71D94B16B002D7904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120DEAD51D94B16B002D7904 /* LaunchScreen.storyboard */; };
 		120DEAE21D94B16B002D7904 /* MidtermPrepAppSep2016Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DEAE11D94B16B002D7904 /* MidtermPrepAppSep2016Tests.m */; };
+		120DEB071D94F6A2002D7904 /* MTPCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DEB061D94F6A2002D7904 /* MTPCat.m */; };
+		120DEB0A1D94F838002D7904 /* MTPCatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DEB091D94F838002D7904 /* MTPCatCell.m */; };
+		120DEB0D1D9508AF002D7904 /* MTPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DEB0C1D9508AF002D7904 /* MTPDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		120DEADD1D94B16B002D7904 /* MidtermPrepAppSep2016Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidtermPrepAppSep2016Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		120DEAE11D94B16B002D7904 /* MidtermPrepAppSep2016Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidtermPrepAppSep2016Tests.m; sourceTree = "<group>"; };
 		120DEAE31D94B16B002D7904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		120DEB051D94F6A2002D7904 /* MTPCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPCat.h; sourceTree = "<group>"; };
+		120DEB061D94F6A2002D7904 /* MTPCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPCat.m; sourceTree = "<group>"; };
+		120DEB081D94F838002D7904 /* MTPCatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPCatCell.h; sourceTree = "<group>"; };
+		120DEB091D94F838002D7904 /* MTPCatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPCatCell.m; sourceTree = "<group>"; };
+		120DEB0B1D9508AF002D7904 /* MTPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPDetailViewController.h; sourceTree = "<group>"; };
+		120DEB0C1D9508AF002D7904 /* MTPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				120DEACB1D94B16B002D7904 /* MTPAppDelegate.m */,
 				120DEACD1D94B16B002D7904 /* MTPMainListViewController.h */,
 				120DEACE1D94B16B002D7904 /* MTPMainListViewController.m */,
+				120DEB0B1D9508AF002D7904 /* MTPDetailViewController.h */,
+				120DEB0C1D9508AF002D7904 /* MTPDetailViewController.m */,
+				120DEB051D94F6A2002D7904 /* MTPCat.h */,
+				120DEB061D94F6A2002D7904 /* MTPCat.m */,
+				120DEB081D94F838002D7904 /* MTPCatCell.h */,
+				120DEB091D94F838002D7904 /* MTPCatCell.m */,
 				120DEAD01D94B16B002D7904 /* Main.storyboard */,
 				120DEAD31D94B16B002D7904 /* Assets.xcassets */,
 				120DEAD51D94B16B002D7904 /* LaunchScreen.storyboard */,
@@ -211,6 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120DEB071D94F6A2002D7904 /* MTPCat.m in Sources */,
+				120DEB0D1D9508AF002D7904 /* MTPDetailViewController.m in Sources */,
+				120DEB0A1D94F838002D7904 /* MTPCatCell.m in Sources */,
 				120DEACF1D94B16B002D7904 /* MTPMainListViewController.m in Sources */,
 				120DEACC1D94B16B002D7904 /* MTPAppDelegate.m in Sources */,
 				120DEAC91D94B16B002D7904 /* main.m in Sources */,
@@ -402,6 +420,7 @@
 				120DEAE81D94B16B002D7904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		120DEAE91D94B16B002D7904 /* Build configuration list for PBXNativeTarget "MidtermPrepAppSep2016Tests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +429,7 @@
 				120DEAEB1D94B16B002D7904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
